@@ -12,6 +12,8 @@ router.get('/getProducts',expressController.getProducts);
 
 router.post('/addProduct',expressController.addProduct);
 
-router.put('/updateProduct/:id',expressController.updateProduct);
+router.post('/updateProduct/:id',expressController.updateProduct);
+
+router.get('/deleteProduct/:id',expressController.deleteProduct);
 
 module.exports = router;
