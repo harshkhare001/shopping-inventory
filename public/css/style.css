@@ -1,11 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Rowdies', sans-serif;
+}
+
+body{
+  background-image: url('../images/1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Rowdies', sans-serif;
+}
+
 .mainContainer {
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-right: 50%;
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Rowdies', sans-serif;
+  padding: 10px;
+  margin: 2% 30%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid #3a3131;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgba(249, 170, 137, 0.8);
+  }
+
+  .Container {
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Rowdies', sans-serif;
+    padding: 10px;
+    margin: 2% 30%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgba(249, 170, 137, 0.8);
   }
   
+  
   #div1 {
-    border: 3px solid #d64545;
+    /* border: 3px solid #d64545; */
     border-radius: 5px;
     text-align: center;
   }
+
+  #form{
+    padding: 10px;
+  }
+  #form input{
+    width: 100%; 
+    border-radius: 5px;
+  }
+  #form label{
+    float: left;
+  }
+
+  .items{
+    display: flex;
+    padding: 10px;
+    border: 2px solid #3a3131;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgba(248, 175, 143, 0.8);
+  }
+  
+  .div1{
+    width: 55%;
+  }
+
+  .div2{
+    width: 45%;
+  }
+  .div2 button{
+    float: inline-end;
+    float: right;
+  }
+  .items button{
+    margin: 0px 10px;
+  }
+
+  .buy1{
+    background-color: rgb(238, 86, 59);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+  }
+
+  .buy2{
+    background-color: rgb(238, 86, 59);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+  }
+
+  .buy3{
+    background-color: rgb(238, 86, 59);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+  }
+
+  .buy1:hover{
+    background-color: rgb(251, 38, 1);;
+  }
+  .buy2:hover{
+    background-color: rgb(251, 38, 1);;
+  }
+  .buy3:hover{
+    background-color: rgb(251, 38, 1);;
+  }
+
+
